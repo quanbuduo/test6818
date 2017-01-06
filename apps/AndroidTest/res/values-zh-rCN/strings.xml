@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安卓测试</string>
+    <string name="btn_start">开始测试</string>
+    <string name="test_lcd">液晶屏测试</string>
+    <string name="test_ts">触摸屏测试</string>
+    <string name="test_led">发光二极管测试</string>
+    <string name="test_beep">蜂鸣器测试</string>
+    <string name="test_backlight">背光测试</string>
+    <string name="test_keyboard">按键测试</string>
+    <string name="test_battery">电池测试</string>
+    <string name="test_adc">数模转换测试</string>
+    <string name="test_gsensor">重力传感器测试</string>
+    <string name="test_audio">音频测试</string>
+    <string name="test_camera">摄像头测试</string>
+    <string name="test_wifi">无线网络测试</string>
+    <string name="test_network">网络连接测试</string>
+    <string name="test_serial">串口测试</string>
+    <string name="test_sdcard">外部存储卡测试</string>
+    <string name="test_udisk">优盘测试</string>
+
+</resources>

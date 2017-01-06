@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border"
+        android:gravity="center_horizontal"
+        android:text="@string/test_battery"
+        android:textColor="@android:color/white"
+        android:textScaleX="0.9"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp" 
+        android:orientation="vertical">
+
+	<TextView
+            android:id="@+id/batteryPresent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@android:color/primary_text_dark"
+            android:textStyle="italic"
+            android:textSize="24sp" 
+            android:layout_marginTop="20sp" />
+
+	<TextView
+            android:id="@+id/batteryPowerType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@android:color/primary_text_dark"
+            android:textStyle="italic"
+            android:textSize="24sp" 
+            android:layout_marginTop="20sp" />
+
+        <TextView
+            android:id="@+id/batteryStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@android:color/primary_text_dark"
+            android:textStyle="italic"
+            android:textSize="24sp" 
+            android:layout_marginTop="20sp" />
+
+	 <TextView
+            android:id="@+id/batteryCap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@android:color/primary_text_dark"
+            android:textStyle="italic"
+            android:textSize="24sp" 
+            android:layout_marginTop="20sp"/>
+
+        <TextView
+            android:id="@+id/batteryVol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@android:color/primary_text_dark"
+            android:textStyle="italic"
+            android:textSize="24sp" 
+            android:layout_marginTop="20sp"/>
+        
+        <TextView
+            android:id="@+id/batteryCur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@android:color/primary_text_dark"
+            android:textStyle="italic"
+            android:textSize="24sp" 
+            android:layout_marginTop="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
